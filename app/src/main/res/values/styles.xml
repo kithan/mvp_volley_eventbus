@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.Base" />
+
+    <style name="Theme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_color</item>
+        <item name="colorPrimaryDark">@color/color_black</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+    </style>
+
+    <style name="Savor.Widget.ActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="ActionBar.TitleText.Light" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:textColorPrimary">@color/color_black</item>
+        <item name="android:background">@color/color_white</item>
+    </style>
+</resources>

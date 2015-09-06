@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?colorPrimary"
+    android:minHeight="?actionBarSize"
+    app:theme="@style/Savor.Widget.ActionBar"
+    app:titleTextAppearance="@style/ActionBar.TitleText.Light">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/ActionBar.TitleText.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="123" />
+
+</android.support.v7.widget.Toolbar>
